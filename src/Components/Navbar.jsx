@@ -3,7 +3,7 @@ const Navbar = () => {
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary"data-bs-theme="dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#"><span className="badge text-bg-info fs-4">NewsApp</span></a>
+          <Link className="navbar-brand" to="#"><span className="badge text-bg-info fs-4">NewsApp</span></Link>
           <button 
             className="navbar-toggler" 
             type="button" 
@@ -17,7 +17,7 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                <NavLink className="nav-link active" aria-current="page" to="#">Home</NavLink>
               </li>
               </ul>
             
