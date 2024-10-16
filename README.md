@@ -117,3 +117,6 @@ Project Setup: Create and configure a Vite project with React, including Bootstr
 Component Structure: Understand the use of useState and useEffect for state management and data fetching.
 Image Handling: Use fallback images and error handling to ensure images display correctly.
 Dynamic Fetching: Implement dropdowns for categories and countries to dynamically fetch and display news articles.
+
+
+test
